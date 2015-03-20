@@ -6,7 +6,7 @@ What inside ? A single, yet lone, webpage. Select and upload images files (jpg,p
 
 ## How this is working
 
-The upload files are treated by a different php process, in the *form.php* (included in index.php), this is the default cycle :
+The uploaded files are treated by different php process, in the *form.php* (included in index.php), this is the default cycle :
 
 1. Upload
 2. Only image/* type files will be accepted
