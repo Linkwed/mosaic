@@ -3,13 +3,13 @@
  $handle = new upload($_FILES['image_field']);
   if ($handle->uploaded) {
       $handle->allowed = array('image/*');
-      $handle->file_new_name_body = '9';
+      $handle->file_new_name_body = '0';
       $handle->file_max_size = '10485760'; // 10MO
       $handle->no_script = false;
       $handle->process('./files');
 
       if ($handle->processed) {
-          $handle->file_new_name_body = '9';
+          $handle->file_new_name_body = '0';
           $handle->image_resize         = true;
           $handle->image_y              = 30;
           $handle->image_x              = 30;
