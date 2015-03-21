@@ -12,7 +12,7 @@ The uploaded files are treated by different php process, in the *form.php* (incl
 2. Only image/* type files will be accepted
 3. Rename the file with a default prefix "0.xxx"
 4. Only final files under 10mo will be accepted
-5. Desactivate script files, by transform it in .txt, the reject it
+5. Desactivate script files, by transform it in .txt, then reject it
 6. Save current state files in the directory /files
 7. Resize to 30x30
 9. Save current state files in the directory /files_min
