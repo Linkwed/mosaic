@@ -13,12 +13,12 @@ The uploaded files are treated by different php process, in the *form.php* (incl
 3. Rename the file with a default prefix "0.xxx"
 4. Only final files under 10mo will be accepted
 5. Desactivate script files, by transform it in .txt, then reject it
-6. Save current state files in the directory /files
+6. Save current state file in the directory /files
 7. Resize to 30x30
-9. Save current state files in the directory /files_min
+9. Save current state file in the directory /files_min
 10. End
 
-The treated files will be visible in the index page, in the *mosaic.php* (included in index.php). This php files will display the min_files (from /files_min) to optimise page loading, and link it to the full size one (in /file)
+The treated files will be visible in the index page, in the *mosaic.php* (included in index.php). This php file will display the min_files (from /files_min) to optimise page loading, and link it to the full size one (in /file)
 
 ## Style
 
